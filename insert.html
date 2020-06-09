@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<style type="text/css">
+table,td,th{
+	border:#6F9 solid 1px;
+	}
+table{
+	width:1110px;
+	margin:auto;
+	font-size:18px;
+	background:#cc99bb;
+	}
+</style>
+
+<body bgcolor="#FFFF99">
+<form id="form1" name="form1" method="post" action="insert.php">
+  <h1 align="center">录入新闻</h1>
+  <table width="712" border="1" align="center">
+    <tr>
+      <td width="117" height="41"><strong>标题：</strong></td>
+      <td width="542"><label for="textfield"></label>
+      <input type="text" name="title" id="textfield" style="width:99%"/></td>
+    </tr>
+    <tr>
+      <td height="37">关键字：</td>
+      <td><label for="textfield2"></label>
+      <input type="text" name="keyword" id="textfield2" style="width:99%"/></td>
+    </tr>
+    <tr>
+      <td height="35">作者：</td>
+      <td><label for="textfield3"></label>
+      <input type="text" name="author" id="textfield3" style="width:99%"/></td>
+    </tr>
+    <tr>
+      <td height="169">新闻内容：</td>
+      <td><label for="textarea"></label>
+      <textarea name="content" id="textarea" style="width:99%" cols="60" rows="8"></textarea></td>
+    </tr>
+    <tr>
+      <td height="48" colspan="2" align="center"><input type="submit" name="button" id="button" value="提交" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="submit" name="button2" id="button2" value="重置" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
