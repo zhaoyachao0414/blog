@@ -1,2 +1,1 @@
-#Blog
-Python-Django 开发个人博客系统
+PHP 开发个人博客系统
