@@ -49,7 +49,8 @@ table{
       <th width="100">库存量</th>
       <th width="80">图片</th>
       <th>网址</th>
-    </tr>
+	</tr>
+	
 <?php
 //循环取出，取出一条记录匹配成关联数组
 while($rows=mysql_fetch_assoc($rss)){
@@ -66,11 +67,12 @@ while($rows=mysql_fetch_assoc($rss)){
 ?>
 </table>
 
+	
 <!--循环页面-->
 <table>
 <tr>
 	<td>
-    <?php
+<?php
     for($i=1;$i<$pagecount;$i++)
     {
     	echo '<a href="fenye.php?pageno='.$i.'">'.$i.'</a>&nbsp&nbsp&nbsp&nbsp&nbsp';
