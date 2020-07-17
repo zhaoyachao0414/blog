@@ -15,14 +15,12 @@ table{
 	}
 </style>
 </head>
-
 <body>
 <?php
 	//连接数据库
 	$link=@mysql_connect('localhost','root','') or die('数据库连接失败！！！');
 	mysql_query('use data0401') or die('数据库选择失败？');
 	mysql_query('set names utf8');
-	
 	//定义页面大小
 	$pagesize=8;
 	
@@ -68,7 +66,6 @@ while($rows=mysql_fetch_assoc($rss)){
 ?>
 </table>
 
-
 <!--循环页面-->
 <table>
 <tr>
@@ -78,7 +75,7 @@ while($rows=mysql_fetch_assoc($rss)){
     {
     	echo '<a href="fenye.php?pageno='.$i.'">'.$i.'</a>&nbsp&nbsp&nbsp&nbsp&nbsp';
     }
-	?>
+?>
     </td>
 </tr>
 </table>
